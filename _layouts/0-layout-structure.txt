@@ -1,0 +1,21 @@
+Layout Structure
+
+compress:
+  default:
+    basic:
+      blogpane.html
+      page:
+        (pages)
+        404.html
+        404-mobile.html
+      project:
+        (projects)
+    indexes:
+      index/index.html
+    p5page_splash:
+      index.html
+    p5page:
+    p5dom:
+    3jspage:
+    processing.jspage:
+    redirect:

@@ -1,0 +1,35 @@
+/* MOBILE OPTIMIZATION
+*/
+
+@media screen and (max-width: $mobile-width) {
+  body {
+    overflow: auto;
+  }
+  main {
+    position: static;
+    width: 100%;
+    left: 0;
+  }
+  .innertube{
+  	margin-bottom: 20px;
+  }
+  #sidebar {
+    position: static;
+    width: 100%;
+    top: 0;
+  }
+  #sidebar-title {
+    margin-bottom: 0.5em;
+  }
+  #sidebar-nav {
+    margin-bottom: 0;
+  }
+  .sidebar-nav-item {
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+
+  #thumbs ul li {
+    /*margin:0 10% 15% 0;*/
+  }
+}

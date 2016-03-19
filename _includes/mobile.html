@@ -1,0 +1,9 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+     var w = $(document).width();
+     if (w <= 749) {
+       try { window.location.replace("{{ include.link }}"); }
+       catch(e) { window.location = "{{ include.link }}"; }
+     }
+  });
+</script>

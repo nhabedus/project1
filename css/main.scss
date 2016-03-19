@@ -1,0 +1,31 @@
+---
+---
+
+/*
+  Design based off Hyde, Poole, and Cargo Collective's Andromeda
+  Designed by Christopher Mills
+
+  Requires penman/Sass-Web-Fonts
+*/
+
+@import "web-fonts";
+$web-fonts-protocol: "https";
+@include web-fonts("Source Code Pro");
+@include web-fonts("Source Sans Pro");
+$title-slab: 'Source Code Pro', monospace;
+$text-slab: 'Source Sans Pro', sans-serif;
+
+$title-color: #763b3b;
+$text-color: #333;
+$hov-back: #ff0;
+$hov-color: #222;
+$bg-color: #dadada;
+$bg-color-content: rgba(218,218,218,0.7);
+
+$mobile-width: 749px;
+
+@import "cmbase";
+@import "cmtype";
+@import "cmcontent";
+@import "cmcode";
+@import "cmmobile";

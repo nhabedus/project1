@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<head>
+  {% include head.html %}
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  {% if page.mobile != 'true' %}
+    {% comment %} Detect small screens, skip three.js {% endcomment %}
+    {% include mobile.html link='/404_mobile.html' %}
+  {% endif %}
+
+  <style>
+
+    main {
+    }
+
+    #sidebar {
+      background: rgba(218,218,218,1);
+    }
+
+    #blocker {
+  		position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(218, 218, 218, 0.7);
+  	}
+
+  	#instructions {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      font-style: bold;
+  		cursor: pointer;
+      display: inline;
+  	}
+
+    #enter {
+      font-size: 24px;
+      visibility: hidden;
+      background-color: #ff0;
+      display: inline
+    }
+
+    #oldie {
+      font-family: monospace;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+
+    canvas {
+      position:fixed;
+    }
+
+  </style>
+
+  {% include analytics.html %}
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/{{page.3js.version}}/three.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/{{page.3js.version}}/three.js"></script>
+  <script src="{{ site.baseurl }}/js/libs/3js/Detector.js"></script>
+</head>
+
+
+<body ontouchstart="">
+  {{ content }}
+</body>

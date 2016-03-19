@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<head>
+  {% include head.html %}
+
+  {% if page.mobile != 'true' %}
+    {% comment %} Detect small screens, skip p5.js {% endcomment %}
+    {% include mobile.html link='/404_mobile.html' %}
+  {% endif %}
+
+  {% include p5js.html %}
+
+  {% include analytics.html %}
+</head>
+
+
+<body>
+  {{ content }}
+  <div id='sketch'></div>
+</body>

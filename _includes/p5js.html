@@ -1,0 +1,9 @@
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/{{page.p5js.version}}/p5.min.js"></script>
+{% if page.p5js.dom == 'true' %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/{{page.p5js.version}}/addons/p5.dom.js"></script>
+{% endif %}
+{% if page.p5js.sound == 'true' %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/{{page.p5js.version}}/addons/p5.sound.min.js"></script>
+{% endif %}
+<script src="{{site.baseurl}}{{ page.p5js.sketch }}"></script>

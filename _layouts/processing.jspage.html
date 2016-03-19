@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<head>
+  {% include head.html %}
+
+  {% if page.mobile != 'true' %}
+    {% comment %} Detect small screens, skip p5.js {% endcomment %}
+    {% include mobile.html link='/404_mobile.html' %}
+  {% endif %}
+
+  <script src="{{ site.baseurl }}//js/libs/processing.min.js"></script>
+
+  {% include analytics.html %}
+</head>
+
+
+<body>
+  <canvas id="sketch" data-processing-sources="{{site.baseurl}}{{ page.p5js.sketch }}"></canvas>
+</body>

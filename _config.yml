@@ -1,0 +1,37 @@
+
+################################################################
+# Metadata
+################################################################
+
+# Basics
+title:              tashweb1
+email:
+author:
+  name:             'Chris Eugene Mills'
+description:        ''
+url:                ''
+baseurl:            ''
+
+
+################################################################
+# Configuration
+################################################################
+
+# Setup
+destination:        ./_site
+
+markdown:           redcarpet
+highlighter:        rouge
+sass:
+  sass_dir:         _sass
+  style:            compressed
+exclude:            [Gemfile, Gemfile.lock] #, README.md]
+include:            [.gitignore, .nojekyll]
+
+# Page Structure
+relative_permalinks: true
+
+# Google Analytics
+analytics:
+  active:           'false'
+  userID:           ''
