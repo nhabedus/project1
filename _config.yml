@@ -4,12 +4,12 @@
 ################################################################
 
 # Basics
-title:              tashweb1
+title:              tashpage1
 email:
 author:
   name:             'Chris Eugene Mills'
 description:        ''
-url:                ''
+url:                'http://www.chriseugenemills.com/tashpage1/'
 baseurl:            ''
 
 
