@@ -4,7 +4,7 @@
 main {
 	position: fixed;
 	top: 0;
-	left: 230px; /* Set this to the width of the navigation frame */
+	left: 0;
 	right: 0;
 	bottom: 0;
 	overflow: auto;
@@ -48,8 +48,12 @@ main {
   line-height: 3em;
 }
 
-.blog {
-	height: 100%;
+.fixed-bg {
+	min-height: 200%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 footer {
