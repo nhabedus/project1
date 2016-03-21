@@ -1,12 +1,12 @@
-# TashPage1
+# Project 1
 is a website/artwork
 
 
 ## Setup, Notes to Self
 - Install Jekyll + DevKit
  - http://jekyll-windows.juthilo.com/
-- `git clone -b source git@github.com:chrsmlls333/tashpage1.git` into 'folder'
-- `git clone -b master git@github.com:chrsmlls333/tashpage1.git` into 'folder/\_site'
+- `git clone -b source git@github.com:chrsmlls333/project1.git` into 'folder'
+- `git clone -b master git@github.com:chrsmlls333/project1.git` into 'folder/\_site'
 - `cd` to project folder
 - `gem install bundler`
 - `bundle install`
