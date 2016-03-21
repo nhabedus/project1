@@ -9,7 +9,8 @@ email:
 author:
   name:             'Natasha Habedus'
 description:        ''
-url:                'http://nhabedus.github.io/project1/'
+#url:                'http://nhabedus.github.io/project1/'
+url:                'http://ethericbod.pw/'
 baseurl:            ''
 
 
