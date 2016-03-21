@@ -4,13 +4,13 @@
 ################################################################
 
 # Basics
-title:              tashpage1
-email:
+title:              ~~Title~~
+email:              
 author:
   name:             'Chris Eugene Mills'
 description:        ''
-url:                'http://www.chriseugenemills.com/tashpage1/'
-baseurl:            '/webbyweb'
+url:                'http://nhabedus.github.io/project1/'
+baseurl:            '/project1'
 
 
 ################################################################
