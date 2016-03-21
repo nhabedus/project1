@@ -1,4 +1,4 @@
-# Project 1
+# Project 1 // ethericbod.pw
 is a website/artwork
 
 
